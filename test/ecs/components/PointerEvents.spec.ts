@@ -10,13 +10,15 @@ describe('Generated OnPointerDown ProtoBuf', () => {
       pointerEvents: [
         {
           eventType: PointerEventType.PET_UP,
+          interactionType: undefined,
           eventInfo: {
             button: 1,
             hoverText: 'Tap to run',
             maxDistance: 10,
             showFeedback: true,
             showHighlight: true,
-            maxPlayerDistance: 10
+            maxPlayerDistance: 10,
+            priority: undefined
           }
         }
       ]
@@ -26,13 +28,15 @@ describe('Generated OnPointerDown ProtoBuf', () => {
       pointerEvents: [
         {
           eventType: PointerEventType.PET_DOWN,
+          interactionType: undefined,
           eventInfo: {
             button: InputAction.IA_ACTION_4,
             hoverText: 'Run to tap',
             maxDistance: 5,
             showFeedback: false,
             showHighlight: false,
-            maxPlayerDistance: 7
+            maxPlayerDistance: 7,
+            priority: undefined
           }
         }
       ]

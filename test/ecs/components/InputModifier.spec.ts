@@ -15,7 +15,9 @@ describe('Generated InputModifier ProtoBuf', () => {
           disableJog: true,
           disableRun: true,
           disableJump: true,
-          disableEmote: true
+          disableEmote: true,
+          disableDoubleJump: undefined,
+          disableGliding: undefined
         }
       }
     })
@@ -31,7 +33,9 @@ describe('Generated InputModifier ProtoBuf', () => {
         disableJog: true,
         disableRun: true,
         disableJump: true,
-        disableEmote: true
+        disableEmote: true,
+        disableDoubleJump: undefined,
+        disableGliding: undefined
       })
     })
   })
